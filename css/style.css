@@ -39,3 +39,16 @@ body {
  min-height: 100vh;
  background-image: linear-gradient(to bottom right, var(--pink-light), var(--cyan-light));
 }
+
+body::before {
+ content: '';
+ position: fixed;
+ left: 0;
+ top: 0;
+ height: 100%;
+ width: 100%;
+ background-attachment: fixed;
+ background-color: var(--green-yellow);
+ z-index: -1;
+ opacity: .12;
+}
