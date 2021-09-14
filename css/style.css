@@ -51,7 +51,6 @@ textarea.form-control {
   border-radius: 0;
 }
 
-<<<<<<< HEAD
 .btn.btn-primary {
   color: #fff;
   border-width: 2px;
@@ -267,7 +266,7 @@ body.offcanvas-open .site-wrap {
   overflow: scroll;
   z-index: 100;
   width: 240px;
-  background: #283149;
+  background: #131825;
   padding: 20px 30px;
 }
 
@@ -1452,44 +1451,3 @@ main {
     stroke-dashoffset: -136px;
   }
 }
-=======
-body {
- min-height: 100vh;
- background-image: linear-gradient(to bottom right, var(--pink-light), var(--cyan-light));
- font-size: 16px;
- color: var(--blue-dark);
- line-height: 1.5;
- overflow: hidden;
- -webkit-tap-highlight-color: transparent;
- padding: 5vh 15px;
-}
-
-body::before {
- content: '';
- position: fixed;
- left: 0;
- top: 0;
- height: 100%;
- width: 100%;
- background-attachment: fixed;
- background-color: var(--green-yellow);
- z-index: -1;
- opacity: .12;
-}
-
-section {
- background-color: var(--white-alpha-25);
- border: 1px solid var(--white-alpha-40);
- min-height: 90vh;
- border-radius: 30px;
-}
-
-.main {
- max-width: 1200px;
- margin: auto;
-}
-
-.contianer {
- background-color: red;
-}
->>>>>>> 596a5c13fee3902e50307faf4416e8fc3ee1f114
