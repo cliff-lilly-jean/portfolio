@@ -7,6 +7,10 @@ body {
   background: #fff;
 }
 
+.fa-li {
+color: #F73859;
+}
+
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -19,7 +23,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5 {
-  color: #000;
+  color: #F73859;
   font-family: "Playfair Display", times, serif;
 }
 
@@ -316,7 +320,7 @@ main, aside {
   width: 100%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 1000px) {
   main, aside {
     width: 50%;
   }
@@ -325,11 +329,11 @@ main, aside {
 aside {
   background-position: center center;
   background-size: cover;
-  height: 400px;
+  height: 600px;
   position: relative;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 1000px) {
   aside {
     height: 100vh;
     position: fixed;
@@ -345,15 +349,16 @@ main {
 }
 
 .home-button {
-  top: 20px;
+  top: -29em;
   color: #F73859;
   font-size: 20px;
   position: absolute;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 1000px) {
   .home-button {
     display: block;
+    top: 1em;
   }
 }
 
